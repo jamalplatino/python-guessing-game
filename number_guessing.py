@@ -6,7 +6,6 @@ chosenNumber = random.choice([1,2,3,4,5,6,7,8,9,10])
 choice = input("Pick a number between 1-10 for your lucky number: ")
 
 while True:
-    print(chosenNumber)
     # higher than
     if int(choice) > chosenNumber:
         choice = input(f"Too high, try again but choose a lower number than {choice} ")
